@@ -1,0 +1,11 @@
+def extract_digits_reverse(number):
+    # Convert the number to a string and reverse it
+    number_str = str(number)[::-1]
+    
+    # Print each digit separated by a space
+    print(" ".join(number_str))
+
+# Example usage:
+number = 7536
+print("Digits extracted in reverse order:")
+extract_digits_reverse(number)
