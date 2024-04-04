@@ -1,0 +1,11 @@
+def print_sum_with_previous(numbers):
+    previous_number = numbers[0]
+    print("Number:", previous_number)  # Print the first number
+    for num in numbers[1:]:
+        current_number = num
+        print("Sum of", current_number, "and", previous_number, "is", current_number + previous_number)
+        previous_number = current_number
+
+# Example usage:
+numbers = range(1, 11)  # First 10 numbers
+print_sum_with_previous(numbers)
