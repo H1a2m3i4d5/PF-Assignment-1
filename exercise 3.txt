@@ -1,0 +1,7 @@
+def print_even_index_characters(string):
+    even_index_characters = string[::2]
+    print("Characters present at even index numbers:", ", ".join(even_index_characters))
+
+# Example usage:
+input_string = input("Enter a string: ")
+print_even_index_characters(input_string)
