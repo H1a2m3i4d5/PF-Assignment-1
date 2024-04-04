@@ -1,0 +1,14 @@
+def check_first_last_same(numbers):
+    if len(numbers) < 1:
+        return "List is empty"
+    elif numbers[0] == numbers[-1]:
+        return "First and Last Numbers are same"
+    else:
+        return "Not Same"
+
+# Example usage:
+list1 = [10, 20, 30, 40, 10]
+list2 = [5, 10, 15, 20]
+
+print(check_first_last_same(list1))  # Output: First and Last Numbers are same
+print(check_first_last_same(list2))  # Output: Not Same
